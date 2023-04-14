@@ -24,7 +24,7 @@ const Land = () => {
       },
     });
     t1.fromTo(
-        animate.current,{x:-600,opacity:0,duration:3},{x:0,opacity:1,duration:3,ease:Power0.easeInOut},stagger
+        animate.current,{x:-600,opacity:0,duration:3},{x:0,opacity:1,duration:3,ease:Power0.easeInOut},
      );
     t1.fromTo(
         animate2.current,{x:600,opacity:0,duration:3},{x:0,opacity:1,duration:3,ease:Power0.easeInOut}
