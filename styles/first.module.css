@@ -1,0 +1,46 @@
+.container{
+    height:100vh;
+    width:100%;
+}
+
+.inner_container{
+    width:90%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 3rem;
+}
+
+.container2{
+    display: flex;
+    flex-direction:row;
+}
+
+.div2{
+    width:50%;
+   display: flex;
+   flex-direction: column;
+   row-gap: 1rem;
+    padding-top: 10rem;
+    align-items: center;
+}
+
+.div2>p:nth-child(1){
+    font-size: clamp(5rem,5rem + 1vw,6rem);
+}
+.div2>p:nth-child(2){
+    font-size:1.8rem;
+    
+}
+.div2>p:nth-child(4){
+    font-size:3rem;
+    
+}
+.div2>p:nth-child(5){
+    font-size:3rem;
+    
+}
+.img1{
+    margin-top: 0rem;
+    margin-left: 3rem;
+}
+

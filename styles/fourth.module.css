@@ -1,0 +1,40 @@
+.container{
+    height:100vh;
+    width:100%;
+}
+
+.inner_container{
+    width:90%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 3rem;
+}
+
+.div2{
+    width:50%;
+    padding-top: 8rem;
+    align-items: center;
+}
+
+.div2>p:nth-child(1){
+    position: absolute;
+    padding-left: clamp(43rem,43.5rem,44rem);
+    padding-top: clamp(5rem,5.5rem,6rem);
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+
+.img1{
+    position: absolute;
+    padding-left: clamp(7rem,7.5rem,8rem);
+    padding-top: 0.5rem;
+
+}
